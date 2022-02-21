@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width-devide-width, initial-scale=1.0">
+    <title>Cart | True Colours</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/3449e8aed4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="home.html"><img src="images/My Post (1).png" width="200px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="all_products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+    <div class="small-container about-page">
+        <h1>About Us</h1>
+        <br>
+        <p>Art is something that holds a lot of importance in each person's life, on levels that can often be subjective. Many artists over the years have created famous paintings that have defined art for the future as well as current generations. Whether you admire paintings on a purely aesthetic basis or are an ardent art lover who enjoys analyzing the creative depth of each painting, investing in your favorite pieces is the best way to portray your passion. If you are looking for beautiful paintings to take home, True Colours's extensive collection is worth a shot.</p>
+        <br>
+        <br>
+        <h3>Types of Paintings available:</h3>
+        <br>
+        <ul>
+            <li><b>Landscape Paintings: </b>This is a type of simple painting that portrays the scenic beauty of our natural surroundings in the world view. These include sunsets, mountains, valleys, etc. illustrated through vibrant hues.</li>
+            <br>
+            <li><b>Figurative Paintings: </b>People are very complex creatures that are most well depicted on canvases. This is one of the best painting types that draw inspiration from real-life objects and human beings, giving this art a representational side.</li>
+            <br>
+            <li><b>Abstract Painting: </b>Abstract paintings are a unique art form that does not directly portray existing things. They make use of multiple colors, shapes, and textures abstractly to symbolize various things that can be interpreted subjectively.</li>
+            <br>
+            <li><b>Digital Art: </b>Digital art refers to art made using software, computers, or other electronic devices. Anything produced or made on digital media, such as animations, photographs, illustrations, videos, digital paintings, and such can be classified as digital art.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download now to get exclusive discounts!</p>
+                    <div class="app">
+                        <a href="https://play.google.com" target="_blank"><img src="images/play-store.png" alt="Image not available"></a>
+                        <a href="https://apple.com/in/app-store/" target="_blank"><img src="images/app-store.png" alt="Image not available"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/My Post (1).png" alt="">
+                    <p>Best selection from the best artists</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <a href=""><li>link1</li></a>
+                        <a href=""><li>link2</li></a>
+                        <a href=""><li>link3</li></a>
+                        <a href=""><li>link4</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <a href="https://twitter.com" target="_blank"><li>Twitter</li></a>
+                        <a href="https://facebook.com" target="_blank"><li>Facebook</li></a>
+                        <a href="https://youtube.com" target="_blank"><li>Youtube</li></a>
+                        <a href="https://instagram.com" target="_blank"><li>Instagram</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - JCBUST, YMCA FARIDABAD</p>
+        </div>
+    </div>
+    
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if (MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+
+    </script>
+</body>
+</html>
